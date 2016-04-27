@@ -7,7 +7,7 @@
 * Instance Type: m3.medium
 * KeyName: Your keyname
 * SSLLocation: 0.0.0.0/0
-* Create IAM Resources: No
+
 
 4. Review outputs and confirm everything is fine and access the URL in the output
 
