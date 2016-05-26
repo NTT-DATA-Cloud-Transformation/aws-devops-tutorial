@@ -10,7 +10,7 @@
 
 4. Review outputs and confirm everything is fine and access the URL in the output
 
-5. Does it work? If not, fix the error and update the stack ( corrected solutions are in 2.webserver.template and 3.webserver.template file)
+5. Does it work? If not, fix the error and update the stack ( corrected solution is in 2.webserver.template file)
 
 
 To debug the error, SSH in to the server, and review the contents of the file using:
