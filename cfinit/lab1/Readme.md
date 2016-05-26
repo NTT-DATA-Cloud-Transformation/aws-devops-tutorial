@@ -13,9 +13,13 @@
 5. Does it work? If not, fix the error and update the stack ( corrected solution is in 2.webserver.template file)
 
 
-To debug the error, SSH in to the server, and review the contents of the file using:
+To debug the error, SSH in to the server, and review the contents of the output from user data run using:
 
 cat /var/log/cloud-init-output.log 
+
+If the cfn-init was run, you can find more specific errors using:
+
+cat /var/log/cfn-init.log 
 
 Look at the bottom to see any errors reported by cfn-helper and fix those errors. 
 
