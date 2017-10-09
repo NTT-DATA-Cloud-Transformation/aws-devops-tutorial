@@ -197,7 +197,7 @@
   "Outputs" : {
     "WebsiteURL" : {
       "Value" : { "Fn::Join" : ["", ["http://", { "Fn::GetAtt" : [ "WebServer", "PublicDnsName" ]}, "/" ]]},
-      "Description" : "WordPress Website"
+      "Description" : "Website"
     }
   }
 }
