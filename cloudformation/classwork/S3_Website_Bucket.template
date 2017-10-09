@@ -21,10 +21,6 @@
     "WebsiteURL" : {
       "Value" : { "Fn::GetAtt" : [ "S3Bucket", "WebsiteURL" ] },
       "Description" : "URL for website hosted on S3"
-    },
-    "S3BucketSecureURL" : {
-      "Value" : { "Fn::Join" : [ "", [ "https://", { "Fn::GetAtt" : [ "S3Bucket", "DomainName" ] } ] ] },
-      "Description" : "Name of S3 bucket to hold website content"
     }
   } 
 }
